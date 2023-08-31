@@ -42,14 +42,14 @@ namespace WindowsFormsApp4
         {
             //VERIFICAR SI SE CUMPLE LA CONDICION DE SER APROBADO O REPROBADO
             decimal NotaMate;
-            decimal NotaLengua;
-            decimal NotaInformat;
-            decimal NotaCiencias;
-            decimal NotaSociales;
-            decimal NotaArtistic;
-            decimal NotaOPV;
-            decimal NotaMoralyCivica;
-            decimal NotaConducta;
+            decimal NLenguaje;
+            decimal NInformatica;
+            decimal NCiencias;
+            decimal NSociales;
+            decimal NArtistica;
+            decimal NOrientacionVida;
+            decimal NMoralyCivica;
+            decimal NConducta;
             decimal Resultado;
             decimal Promedio;
             string NombreCompleto;
@@ -59,17 +59,17 @@ namespace WindowsFormsApp4
             Nombre = lbNombre.Text;
             NombreCompleto = tbNombre.Text;
             NotaMate = decimal.Parse(tbNotaMatematica.Text);
-            NotaLengua = decimal.Parse(tbNotaLenguaje.Text);
-            NotaInformat = decimal.Parse(tbNotaInformatica.Text);
-            NotaCiencias = decimal.Parse(tbNotaCiencias.Text);
-            NotaSociales = decimal.Parse(tbNotaSociales.Text);
-            NotaArtistic = decimal.Parse(tbNotaArtistica.Text);
-            NotaOPV = decimal.Parse(tbNotaOPV.Text);
-            NotaMoralyCivica = decimal.Parse(tbNotaMoralCivica.Text);
-            NotaConducta = decimal.Parse(tbNotaConducta.Text);
+            NLenguaje = decimal.Parse(tbNotaLenguaje.Text);
+            NInformatica = decimal.Parse(tbNotaInformatica.Text);
+            NCiencias = decimal.Parse(tbNotaCiencias.Text);
+            NSociales = decimal.Parse(tbNotaSociales.Text);
+            NArtistica = decimal.Parse(tbNotaArtistica.Text);
+            NOrientacionVida = decimal.Parse(tbNotaOPV.Text);
+            NMoralyCivica = decimal.Parse(tbNotaMoralCivica.Text);
+            NConducta = decimal.Parse(tbNotaConducta.Text);
 
 
-            Resultado = NotaMate + NotaLengua + NotaInformat + NotaCiencias + NotaSociales + NotaArtistic + NotaOPV + NotaMoralyCivica + NotaConducta;
+            Resultado = NotaMate + NLenguaje + NInformatica + NCiencias + NSociales + NArtistica + NOrientacionVida + NMoralyCivica + NConducta;
             Promedio = Resultado / 9;
 
             lbResult.Text = Resultado.ToString("N2");
