@@ -91,7 +91,7 @@ namespace WindowsFormsApp4
                                      NotaSociales.ToString("N2"), NotaArtistic.ToString("N2"), NotaOPV.ToString("N2"), NotaMoralyCivica.ToString("N2"),
                                      NotaConducta.ToString("N2"), Resultado.ToString("N2"), Promedio.ToString("N2"), lbEstado.Text };
 
-            string csvFilePath = "notas.csv";
+            string csvFilePath = "Notas.csv";
 
             using (StreamWriter writer = new StreamWriter(csvFilePath, append: true))
             {
