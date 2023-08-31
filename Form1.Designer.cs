@@ -63,6 +63,7 @@ namespace WindowsFormsApp4
             this.label6 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label9 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -340,20 +341,20 @@ namespace WindowsFormsApp4
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(96, 13);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(306, 20);
+            this.label6.Size = new System.Drawing.Size(292, 20);
             this.label6.TabIndex = 34;
-            this.label6.Text = "COMPLEJO EDUCATIVO GENERAL ";
+            this.label6.Text = "UNIVERSIDAD DE EL SALVADOR";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(148, 33);
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(85, 34);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(205, 20);
+            this.label8.Size = new System.Drawing.Size(339, 16);
             this.label8.TabIndex = 35;
-            this.label8.Text = "RAFAEL OSORIO HIJO.";
+            this.label8.Text = "FACULTAD DE INGENIERIA Y ARQUITECTURA";
             // 
             // pictureBox1
             // 
@@ -365,13 +366,23 @@ namespace WindowsFormsApp4
             this.pictureBox1.TabIndex = 36;
             this.pictureBox1.TabStop = false;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(141, 51);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(199, 16);
+            this.label9.TabIndex = 37;
+            this.label9.Text = "INGENIERIA EN SISTEMAS";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(503, 358);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.lbEstado);
@@ -404,11 +415,12 @@ namespace WindowsFormsApp4
             this.Controls.Add(this.lbResultado);
             this.Controls.Add(this.lbNotaMatematica);
             this.Controls.Add(this.lbNombre);
+            this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SISTEMA DE ALUMNOS";
+            this.Text = "SISTEMA DE PROMEDIOS";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -451,6 +463,7 @@ namespace WindowsFormsApp4
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label9;
     }
 }
 
