@@ -87,7 +87,7 @@ namespace WindowsFormsApp4
                 lbEstado.Text = "REPROBADO";
             }
 
-            string[] dataToWrite = { Nombre.ToString(),NombreCompleto.ToString(), NotaMate.ToString("N2") ,NLenguaje.ToString("N2"), NInformatica.ToString("N2") , NCiencias.ToString("N2"),
+            string[] dataToWrite = { Nombre.ToString(),NombreCompleto.ToString(), NMate.ToString("N2") ,NLenguaje.ToString("N2"), NInformatica.ToString("N2") , NCiencias.ToString("N2"),
                                      NSociales.ToString("N2"), NArtistica.ToString("N2"), NOrientacionVida.ToString("N2"), NMoralyCivica.ToString("N2"),
                                      NConducta.ToString("N2"), Resultado.ToString("N2"), Promedio.ToString("N2"), lbEstado.Text };
 
