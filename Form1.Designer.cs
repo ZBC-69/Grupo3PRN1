@@ -111,6 +111,7 @@ namespace WindowsFormsApp4
             this.tbNotaMatematica.Size = new System.Drawing.Size(41, 20);
             this.tbNotaMatematica.TabIndex = 4;
             this.tbNotaMatematica.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tbNotaMatematica.TextChanged += new System.EventHandler(this.tbNotaMatematica_TextChanged);
             // 
             // label1
             // 

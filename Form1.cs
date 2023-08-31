@@ -35,7 +35,7 @@ namespace WindowsFormsApp4
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Close();
         }
 
         private void btnVerificar_Click(object sender, EventArgs e)
@@ -155,6 +155,11 @@ namespace WindowsFormsApp4
         }
 
         private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbNotaMatematica_TextChanged(object sender, EventArgs e)
         {
 
         }
