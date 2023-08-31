@@ -69,7 +69,8 @@ namespace WindowsFormsApp4
             NConducta = decimal.Parse(tbNotaConducta.Text);
 
 
-            Resultado = NotaMate + NLenguaje + NInformatica + NCiencias + NSociales + NArtistica + NOrientacionVida + NMoralyCivica + NConducta;
+            Resultado = Nota
+                Mate + NLenguaje + NInformatica + NCiencias + NSociales + NArtistica + NOrientacionVida + NMoralyCivica + NConducta;
             Promedio = Resultado / 9;
 
             lbResult.Text = Resultado.ToString("N2");
