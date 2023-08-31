@@ -41,7 +41,7 @@ namespace WindowsFormsApp4
         private void btnVerificar_Click(object sender, EventArgs e)
         {
             //VERIFICAR SI SE CUMPLE LA CONDICION DE SER APROBADO O REPROBADO
-            decimal NotaMate;
+            decimal NMate;
             decimal NLenguaje;
             decimal NInformatica;
             decimal NCiencias;
@@ -58,7 +58,7 @@ namespace WindowsFormsApp4
 
             Nombre = lbNombre.Text;
             NombreCompleto = tbNombre.Text;
-            NotaMate = decimal.Parse(tbNotaMatematica.Text);
+            NMate = decimal.Parse(tbNotaMatematica.Text);
             NLenguaje = decimal.Parse(tbNotaLenguaje.Text);
             NInformatica = decimal.Parse(tbNotaInformatica.Text);
             NCiencias = decimal.Parse(tbNotaCiencias.Text);
@@ -69,7 +69,7 @@ namespace WindowsFormsApp4
             NConducta = decimal.Parse(tbNotaConducta.Text);
 
 
-            Resultado = NotaMate + NLenguaje + NInformatica + NCiencias + NSociales + NArtistica + NOrientacionVida + NMoralyCivica + NConducta;
+            Resultado = NMate + NLenguaje + NInformatica + NCiencias + NSociales + NArtistica + NOrientacionVida + NMoralyCivica + NConducta;
             Promedio = Resultado / 9;
 
             lbResult.Text = Resultado.ToString("N2");
@@ -87,7 +87,7 @@ namespace WindowsFormsApp4
                 lbEstado.Text = "REPROBADO";
             }
 
-            string[] dataToWrite = { Nombre.ToString(),NombreCompleto.ToString(), NotaMate.ToString("N2") ,NLenguaje.ToString("N2"), NInformatica.ToString("N2") , NCiencias.ToString("N2"),
+            string[] dataToWrite = { Nombre.ToString(),NombreCompleto.ToString(), NMate.ToString("N2") ,NLenguaje.ToString("N2"), NInformatica.ToString("N2") , NCiencias.ToString("N2"),
                                      NSociales.ToString("N2"), NArtistica.ToString("N2"), NOrientacionVida.ToString("N2"), NMoralyCivica.ToString("N2"),
                                      NConducta.ToString("N2"), Resultado.ToString("N2"), Promedio.ToString("N2"), lbEstado.Text };
 
