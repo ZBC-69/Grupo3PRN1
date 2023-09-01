@@ -41,18 +41,10 @@ namespace WindowsFormsApp4
             this.btnSalir = new System.Windows.Forms.Button();
             this.tbNotaLenguaje = new System.Windows.Forms.TextBox();
             this.lbNotaLenguaje = new System.Windows.Forms.Label();
-            this.tbNotaInformatica = new System.Windows.Forms.TextBox();
-            this.lbNotaInformatica = new System.Windows.Forms.Label();
-            this.lbNotaArtistica = new System.Windows.Forms.Label();
-            this.lbNotaSociales = new System.Windows.Forms.Label();
             this.lbNotaCiencias = new System.Windows.Forms.Label();
-            this.tbNotaArtistica = new System.Windows.Forms.TextBox();
-            this.tbNotaSociales = new System.Windows.Forms.TextBox();
             this.tbNotaCiencias = new System.Windows.Forms.TextBox();
-            this.tbNotaConducta = new System.Windows.Forms.TextBox();
             this.tbNotaMoralCivica = new System.Windows.Forms.TextBox();
             this.tbNotaOPV = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.lbPromedio = new System.Windows.Forms.Label();
@@ -80,17 +72,17 @@ namespace WindowsFormsApp4
             // lbNotaMatematica
             // 
             this.lbNotaMatematica.AutoSize = true;
-            this.lbNotaMatematica.Location = new System.Drawing.Point(53, 149);
+            this.lbNotaMatematica.Location = new System.Drawing.Point(81, 149);
             this.lbNotaMatematica.Name = "lbNotaMatematica";
-            this.lbNotaMatematica.Size = new System.Drawing.Size(77, 13);
+            this.lbNotaMatematica.Size = new System.Drawing.Size(48, 13);
             this.lbNotaMatematica.TabIndex = 1;
-            this.lbNotaMatematica.Text = "MATEMATICA";
+            this.lbNotaMatematica.Text = "MAT215";
             this.lbNotaMatematica.Click += new System.EventHandler(this.label2_Click);
             // 
             // lbResultado
             // 
             this.lbResultado.AutoSize = true;
-            this.lbResultado.Location = new System.Drawing.Point(38, 278);
+            this.lbResultado.Location = new System.Drawing.Point(38, 232);
             this.lbResultado.Name = "lbResultado";
             this.lbResultado.Size = new System.Drawing.Size(65, 13);
             this.lbResultado.TabIndex = 2;
@@ -126,7 +118,7 @@ namespace WindowsFormsApp4
             // 
             // btnVerificar
             // 
-            this.btnVerificar.Location = new System.Drawing.Point(88, 320);
+            this.btnVerificar.Location = new System.Drawing.Point(88, 274);
             this.btnVerificar.Name = "btnVerificar";
             this.btnVerificar.Size = new System.Drawing.Size(92, 22);
             this.btnVerificar.TabIndex = 7;
@@ -136,7 +128,7 @@ namespace WindowsFormsApp4
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(204, 320);
+            this.btnLimpiar.Location = new System.Drawing.Point(204, 274);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(92, 22);
             this.btnLimpiar.TabIndex = 8;
@@ -146,7 +138,7 @@ namespace WindowsFormsApp4
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(318, 320);
+            this.btnSalir.Location = new System.Drawing.Point(318, 274);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(92, 22);
             this.btnSalir.TabIndex = 9;
@@ -165,71 +157,21 @@ namespace WindowsFormsApp4
             // lbNotaLenguaje
             // 
             this.lbNotaLenguaje.AutoSize = true;
-            this.lbNotaLenguaje.Location = new System.Drawing.Point(53, 186);
+            this.lbNotaLenguaje.Location = new System.Drawing.Point(79, 183);
             this.lbNotaLenguaje.Name = "lbNotaLenguaje";
-            this.lbNotaLenguaje.Size = new System.Drawing.Size(63, 13);
+            this.lbNotaLenguaje.Size = new System.Drawing.Size(50, 13);
             this.lbNotaLenguaje.TabIndex = 10;
-            this.lbNotaLenguaje.Text = "LENGUAJE";
-            // 
-            // tbNotaInformatica
-            // 
-            this.tbNotaInformatica.Location = new System.Drawing.Point(135, 218);
-            this.tbNotaInformatica.Name = "tbNotaInformatica";
-            this.tbNotaInformatica.Size = new System.Drawing.Size(41, 20);
-            this.tbNotaInformatica.TabIndex = 13;
-            this.tbNotaInformatica.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // lbNotaInformatica
-            // 
-            this.lbNotaInformatica.AutoSize = true;
-            this.lbNotaInformatica.Location = new System.Drawing.Point(53, 221);
-            this.lbNotaInformatica.Name = "lbNotaInformatica";
-            this.lbNotaInformatica.Size = new System.Drawing.Size(80, 13);
-            this.lbNotaInformatica.TabIndex = 12;
-            this.lbNotaInformatica.Text = "INFORMATICA";
-            // 
-            // lbNotaArtistica
-            // 
-            this.lbNotaArtistica.AutoSize = true;
-            this.lbNotaArtistica.Location = new System.Drawing.Point(207, 221);
-            this.lbNotaArtistica.Name = "lbNotaArtistica";
-            this.lbNotaArtistica.Size = new System.Drawing.Size(63, 13);
-            this.lbNotaArtistica.TabIndex = 18;
-            this.lbNotaArtistica.Text = "ARTISTICA";
-            // 
-            // lbNotaSociales
-            // 
-            this.lbNotaSociales.AutoSize = true;
-            this.lbNotaSociales.Location = new System.Drawing.Point(207, 186);
-            this.lbNotaSociales.Name = "lbNotaSociales";
-            this.lbNotaSociales.Size = new System.Drawing.Size(59, 13);
-            this.lbNotaSociales.TabIndex = 16;
-            this.lbNotaSociales.Text = "SOCIALES";
+            this.lbNotaLenguaje.Text = "MSM115";
+            this.lbNotaLenguaje.Click += new System.EventHandler(this.lbNotaLenguaje_Click);
             // 
             // lbNotaCiencias
             // 
             this.lbNotaCiencias.AutoSize = true;
             this.lbNotaCiencias.Location = new System.Drawing.Point(207, 149);
             this.lbNotaCiencias.Name = "lbNotaCiencias";
-            this.lbNotaCiencias.Size = new System.Drawing.Size(56, 13);
+            this.lbNotaCiencias.Size = new System.Drawing.Size(42, 13);
             this.lbNotaCiencias.TabIndex = 14;
-            this.lbNotaCiencias.Text = "CIENCIAS";
-            // 
-            // tbNotaArtistica
-            // 
-            this.tbNotaArtistica.Location = new System.Drawing.Point(271, 218);
-            this.tbNotaArtistica.Name = "tbNotaArtistica";
-            this.tbNotaArtistica.Size = new System.Drawing.Size(41, 20);
-            this.tbNotaArtistica.TabIndex = 21;
-            this.tbNotaArtistica.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // tbNotaSociales
-            // 
-            this.tbNotaSociales.Location = new System.Drawing.Point(271, 183);
-            this.tbNotaSociales.Name = "tbNotaSociales";
-            this.tbNotaSociales.Size = new System.Drawing.Size(41, 20);
-            this.tbNotaSociales.TabIndex = 20;
-            this.tbNotaSociales.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.lbNotaCiencias.Text = "FIR115";
             // 
             // tbNotaCiencias
             // 
@@ -240,17 +182,9 @@ namespace WindowsFormsApp4
             this.tbNotaCiencias.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbNotaCiencias.TextChanged += new System.EventHandler(this.tbNotaCiencias_TextChanged);
             // 
-            // tbNotaConducta
-            // 
-            this.tbNotaConducta.Location = new System.Drawing.Point(411, 218);
-            this.tbNotaConducta.Name = "tbNotaConducta";
-            this.tbNotaConducta.Size = new System.Drawing.Size(41, 20);
-            this.tbNotaConducta.TabIndex = 29;
-            this.tbNotaConducta.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // tbNotaMoralCivica
             // 
-            this.tbNotaMoralCivica.Location = new System.Drawing.Point(411, 183);
+            this.tbNotaMoralCivica.Location = new System.Drawing.Point(423, 183);
             this.tbNotaMoralCivica.Name = "tbNotaMoralCivica";
             this.tbNotaMoralCivica.Size = new System.Drawing.Size(41, 20);
             this.tbNotaMoralCivica.TabIndex = 28;
@@ -258,44 +192,35 @@ namespace WindowsFormsApp4
             // 
             // tbNotaOPV
             // 
-            this.tbNotaOPV.Location = new System.Drawing.Point(411, 146);
+            this.tbNotaOPV.Location = new System.Drawing.Point(423, 146);
             this.tbNotaOPV.Name = "tbNotaOPV";
             this.tbNotaOPV.Size = new System.Drawing.Size(41, 20);
             this.tbNotaOPV.TabIndex = 27;
             this.tbNotaOPV.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbNotaOPV.TextChanged += new System.EventHandler(this.tbNotaOrientParaLaVida_TextChanged);
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(338, 221);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 13);
-            this.label3.TabIndex = 26;
-            this.label3.Text = "CONDUCTA";
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(313, 186);
+            this.label4.Location = new System.Drawing.Point(370, 186);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(92, 13);
+            this.label4.Size = new System.Drawing.Size(47, 13);
             this.label4.TabIndex = 25;
-            this.label4.Text = "MORAL Y CIVICA";
+            this.label4.Text = "HSE115";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(338, 149);
+            this.label5.Location = new System.Drawing.Point(368, 149);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(69, 13);
+            this.label5.Size = new System.Drawing.Size(48, 13);
             this.label5.TabIndex = 24;
-            this.label5.Text = "O.P LA VIDA";
+            this.label5.Text = "PRN115";
             // 
             // lbPromedio
             // 
             this.lbPromedio.AutoSize = true;
-            this.lbPromedio.Location = new System.Drawing.Point(117, 278);
+            this.lbPromedio.Location = new System.Drawing.Point(117, 232);
             this.lbPromedio.Name = "lbPromedio";
             this.lbPromedio.Size = new System.Drawing.Size(0, 13);
             this.lbPromedio.TabIndex = 30;
@@ -303,7 +228,7 @@ namespace WindowsFormsApp4
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(157, 282);
+            this.label2.Location = new System.Drawing.Point(157, 236);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(82, 13);
             this.label2.TabIndex = 22;
@@ -312,7 +237,7 @@ namespace WindowsFormsApp4
             // lbResult
             // 
             this.lbResult.AutoSize = true;
-            this.lbResult.Location = new System.Drawing.Point(250, 282);
+            this.lbResult.Location = new System.Drawing.Point(250, 236);
             this.lbResult.Name = "lbResult";
             this.lbResult.Size = new System.Drawing.Size(0, 13);
             this.lbResult.TabIndex = 31;
@@ -321,7 +246,7 @@ namespace WindowsFormsApp4
             // 
             this.lbEstado.AutoSize = true;
             this.lbEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbEstado.Location = new System.Drawing.Point(382, 280);
+            this.lbEstado.Location = new System.Drawing.Point(382, 234);
             this.lbEstado.Name = "lbEstado";
             this.lbEstado.Size = new System.Drawing.Size(0, 13);
             this.lbEstado.TabIndex = 33;
@@ -329,7 +254,7 @@ namespace WindowsFormsApp4
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(299, 282);
+            this.label7.Location = new System.Drawing.Point(299, 236);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(51, 13);
             this.label7.TabIndex = 32;
@@ -381,7 +306,7 @@ namespace WindowsFormsApp4
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(503, 358);
+            this.ClientSize = new System.Drawing.Size(503, 321);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label6);
@@ -389,21 +314,13 @@ namespace WindowsFormsApp4
             this.Controls.Add(this.label7);
             this.Controls.Add(this.lbResult);
             this.Controls.Add(this.lbPromedio);
-            this.Controls.Add(this.tbNotaConducta);
             this.Controls.Add(this.tbNotaMoralCivica);
             this.Controls.Add(this.tbNotaOPV);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.tbNotaArtistica);
-            this.Controls.Add(this.tbNotaSociales);
             this.Controls.Add(this.tbNotaCiencias);
-            this.Controls.Add(this.lbNotaArtistica);
-            this.Controls.Add(this.lbNotaSociales);
             this.Controls.Add(this.lbNotaCiencias);
-            this.Controls.Add(this.tbNotaInformatica);
-            this.Controls.Add(this.lbNotaInformatica);
             this.Controls.Add(this.tbNotaLenguaje);
             this.Controls.Add(this.lbNotaLenguaje);
             this.Controls.Add(this.btnSalir);
@@ -441,18 +358,10 @@ namespace WindowsFormsApp4
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.TextBox tbNotaLenguaje;
         private System.Windows.Forms.Label lbNotaLenguaje;
-        private System.Windows.Forms.TextBox tbNotaInformatica;
-        private System.Windows.Forms.Label lbNotaInformatica;
-        private System.Windows.Forms.Label lbNotaArtistica;
-        private System.Windows.Forms.Label lbNotaSociales;
         private System.Windows.Forms.Label lbNotaCiencias;
-        private System.Windows.Forms.TextBox tbNotaArtistica;
-        private System.Windows.Forms.TextBox tbNotaSociales;
         private System.Windows.Forms.TextBox tbNotaCiencias;
-        private System.Windows.Forms.TextBox tbNotaConducta;
         private System.Windows.Forms.TextBox tbNotaMoralCivica;
         private System.Windows.Forms.TextBox tbNotaOPV;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label lbPromedio;

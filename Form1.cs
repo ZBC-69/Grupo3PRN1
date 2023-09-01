@@ -44,13 +44,9 @@ namespace WindowsFormsApp4
             //VERIFICAR SI SE CUMPLE LA CONDICION DE SER APROBADO O REPROBADO
             decimal NMate;
             decimal NLenguaje;
-            decimal NInformatica;
             decimal NCiencias;
-            decimal NSociales;
-            decimal NArtistica;
             decimal NOrientacionVida;
             decimal NMoralyCivica;
-            decimal NConducta;
             decimal Resultado;
             decimal Promedio;
             string NombreCompleto;
@@ -61,17 +57,14 @@ namespace WindowsFormsApp4
             NombreCompleto = tbNombre.Text;
             NMate = decimal.Parse(tbNotaMatematica.Text);
             NLenguaje = decimal.Parse(tbNotaLenguaje.Text);
-            NInformatica = decimal.Parse(tbNotaInformatica.Text);
             NCiencias = decimal.Parse(tbNotaCiencias.Text);
-            NSociales = decimal.Parse(tbNotaSociales.Text);
-            NArtistica = decimal.Parse(tbNotaArtistica.Text);
             NOrientacionVida = decimal.Parse(tbNotaOPV.Text);
             NMoralyCivica = decimal.Parse(tbNotaMoralCivica.Text);
-            NConducta = decimal.Parse(tbNotaConducta.Text);
 
 
-            Resultado = NMate + NLenguaje + NInformatica + NCiencias + NSociales + NArtistica + NOrientacionVida + NMoralyCivica + NConducta;
-            Promedio = Resultado / 9;
+
+            Resultado = NMate + NLenguaje + NCiencias + NOrientacionVida + NMoralyCivica ;
+            Promedio = Resultado / 5;
 
             lbResult.Text = Resultado.ToString("N2");
             lbPromedio.Text = Promedio.ToString("N2");
@@ -88,9 +81,8 @@ namespace WindowsFormsApp4
                 lbEstado.Text = "REPROBADO";
             }
 
-            string[] dataToWrite = { Nombre.ToString(),NombreCompleto.ToString(), NMate.ToString("N2") ,NLenguaje.ToString("N2"), NInformatica.ToString("N2") , NCiencias.ToString("N2"),
-                                     NSociales.ToString("N2"), NArtistica.ToString("N2"), NOrientacionVida.ToString("N2"), NMoralyCivica.ToString("N2"),
-                                     NConducta.ToString("N2"), Resultado.ToString("N2"), Promedio.ToString("N2"), lbEstado.Text };
+            string[] dataToWrite = { Nombre.ToString(),NombreCompleto.ToString(), NMate.ToString("N2") ,NLenguaje.ToString("N2") , NCiencias.ToString("N2"),
+                                     NOrientacionVida.ToString("N2"), NMoralyCivica.ToString("N2"), Resultado.ToString("N2"), Promedio.ToString("N2"), lbEstado.Text };
 
             string csvFilePath = "Notas.csv";
 
@@ -108,13 +100,9 @@ namespace WindowsFormsApp4
             tbNombre.Text = "";
             tbNotaMatematica.Text = "";
             tbNotaLenguaje.Text = "";
-            tbNotaInformatica.Text = "";
             tbNotaCiencias.Text = "";
-            tbNotaSociales.Text = "";
-            tbNotaArtistica.Text = "";
             tbNotaOPV.Text = "";
             tbNotaMoralCivica.Text = "";
-            tbNotaConducta.Text = "";
             lbPromedio.Text = "";
             lbEstado.Text = "";
             lbResult.Text = "";
@@ -156,6 +144,11 @@ namespace WindowsFormsApp4
         }
 
         private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbNotaLenguaje_Click(object sender, EventArgs e)
         {
 
         }
