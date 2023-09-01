@@ -310,7 +310,7 @@ namespace WindowsFormsApp4
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 13);
             this.label3.TabIndex = 38;
-            this.label3.Text = "v0.0.2";
+            this.label3.Text = "v1.0.2";
             // 
             // Form1
             // 
