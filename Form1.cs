@@ -43,7 +43,7 @@ namespace WindowsFormsApp4
         {
             //VERIFICAR SI SE CUMPLE LA CONDICION DE SER APROBADO O REPROBADO
             decimal NMate;
-            decimal NLenguaje;
+            decimal Nmsm;
             decimal NCiencias;
             decimal NOrientacionVida;
             decimal NMoralyCivica;
@@ -56,14 +56,14 @@ namespace WindowsFormsApp4
             Nombre = lbNombre.Text;
             NombreCompleto = tbNombre.Text;
             NMate = decimal.Parse(tbNotaMatematica.Text);
-            NLenguaje = decimal.Parse(tbNotaLenguaje.Text);
+            Nmsm = decimal.Parse(txtNotaMSM.Text);
             NCiencias = decimal.Parse(tbNotaCiencias.Text);
             NOrientacionVida = decimal.Parse(tbNotaOPV.Text);
             NMoralyCivica = decimal.Parse(tbNotaMoralCivica.Text);
 
 
 
-            Resultado = NMate + NLenguaje + NCiencias + NOrientacionVida + NMoralyCivica ;
+            Resultado = NMate + Nmsm + NCiencias + NOrientacionVida + NMoralyCivica ;
             Promedio = Resultado / 5;
 
             lbResult.Text = Resultado.ToString("N2");
@@ -81,7 +81,7 @@ namespace WindowsFormsApp4
                 lbEstado.Text = "REPROBADO";
             }
 
-            string[] dataToWrite = { Nombre.ToString(),NombreCompleto.ToString(), NMate.ToString("N2") ,NLenguaje.ToString("N2") , NCiencias.ToString("N2"),
+            string[] dataToWrite = { Nombre.ToString(),NombreCompleto.ToString(), NMate.ToString("N2") ,Nmsm.ToString("N2") , NCiencias.ToString("N2"),
                                      NOrientacionVida.ToString("N2"), NMoralyCivica.ToString("N2"), Resultado.ToString("N2"), Promedio.ToString("N2"), lbEstado.Text };
 
             string csvFilePath = "Notas.csv";
@@ -99,7 +99,7 @@ namespace WindowsFormsApp4
         {
             tbNombre.Text = "";
             tbNotaMatematica.Text = "";
-            tbNotaLenguaje.Text = "";
+            txtNotaMSM.Text = "";
             tbNotaCiencias.Text = "";
             tbNotaOPV.Text = "";
             tbNotaMoralCivica.Text = "";

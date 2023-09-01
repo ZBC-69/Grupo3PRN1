@@ -39,7 +39,7 @@ namespace WindowsFormsApp4
             this.btnVerificar = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
-            this.tbNotaLenguaje = new System.Windows.Forms.TextBox();
+            this.txtNotaMSM = new System.Windows.Forms.TextBox();
             this.lbNotaLenguaje = new System.Windows.Forms.Label();
             this.lbNotaCiencias = new System.Windows.Forms.Label();
             this.tbNotaCiencias = new System.Windows.Forms.TextBox();
@@ -147,13 +147,13 @@ namespace WindowsFormsApp4
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.button3_Click);
             // 
-            // tbNotaLenguaje
+            // txtNotaMSM
             // 
-            this.tbNotaLenguaje.Location = new System.Drawing.Point(135, 183);
-            this.tbNotaLenguaje.Name = "tbNotaLenguaje";
-            this.tbNotaLenguaje.Size = new System.Drawing.Size(41, 20);
-            this.tbNotaLenguaje.TabIndex = 11;
-            this.tbNotaLenguaje.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNotaMSM.Location = new System.Drawing.Point(135, 183);
+            this.txtNotaMSM.Name = "txtNotaMSM";
+            this.txtNotaMSM.Size = new System.Drawing.Size(41, 20);
+            this.txtNotaMSM.TabIndex = 11;
+            this.txtNotaMSM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lbNotaLenguaje
             // 
@@ -333,7 +333,7 @@ namespace WindowsFormsApp4
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tbNotaCiencias);
             this.Controls.Add(this.lbNotaCiencias);
-            this.Controls.Add(this.tbNotaLenguaje);
+            this.Controls.Add(this.txtNotaMSM);
             this.Controls.Add(this.lbNotaLenguaje);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnLimpiar);
@@ -368,7 +368,7 @@ namespace WindowsFormsApp4
         private System.Windows.Forms.Button btnVerificar;
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.Button btnSalir;
-        private System.Windows.Forms.TextBox tbNotaLenguaje;
+        private System.Windows.Forms.TextBox txtNotaMSM;
         private System.Windows.Forms.Label lbNotaLenguaje;
         private System.Windows.Forms.Label lbNotaCiencias;
         private System.Windows.Forms.TextBox tbNotaCiencias;
