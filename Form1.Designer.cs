@@ -42,7 +42,7 @@ namespace WindowsFormsApp4
             this.tbNotaLenguaje = new System.Windows.Forms.TextBox();
             this.lbNotaLenguaje = new System.Windows.Forms.Label();
             this.lbNotaCiencias = new System.Windows.Forms.Label();
-            this.txtNotasFir = new System.Windows.Forms.TextBox();
+            this.txtNotas = new System.Windows.Forms.TextBox();
             this.tbNotaMoralCivica = new System.Windows.Forms.TextBox();
             this.tbNotaOPV = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -174,14 +174,14 @@ namespace WindowsFormsApp4
             this.lbNotaCiencias.TabIndex = 14;
             this.lbNotaCiencias.Text = "FIR115";
             // 
-            // txtNotasFir
+            // txtNotas
             // 
-            this.txtNotasFir.Location = new System.Drawing.Point(271, 146);
-            this.txtNotasFir.Name = "txtNotasFir";
-            this.txtNotasFir.Size = new System.Drawing.Size(41, 20);
-            this.txtNotasFir.TabIndex = 19;
-            this.txtNotasFir.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtNotasFir.TextChanged += new System.EventHandler(this.tbNotaCiencias_TextChanged);
+            this.txtNotas.Location = new System.Drawing.Point(271, 146);
+            this.txtNotas.Name = "txtNotas";
+            this.txtNotas.Size = new System.Drawing.Size(41, 20);
+            this.txtNotas.TabIndex = 19;
+            this.txtNotas.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNotas.TextChanged += new System.EventHandler(this.tbNotaCiencias_TextChanged);
             // 
             // tbNotaMoralCivica
             // 
@@ -331,7 +331,7 @@ namespace WindowsFormsApp4
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtNotasFir);
+            this.Controls.Add(this.txtNotas);
             this.Controls.Add(this.lbNotaCiencias);
             this.Controls.Add(this.tbNotaLenguaje);
             this.Controls.Add(this.lbNotaLenguaje);
@@ -371,7 +371,7 @@ namespace WindowsFormsApp4
         private System.Windows.Forms.TextBox tbNotaLenguaje;
         private System.Windows.Forms.Label lbNotaLenguaje;
         private System.Windows.Forms.Label lbNotaCiencias;
-        private System.Windows.Forms.TextBox txtNotasFir;
+        private System.Windows.Forms.TextBox txtNotas;
         private System.Windows.Forms.TextBox tbNotaMoralCivica;
         private System.Windows.Forms.TextBox tbNotaOPV;
         private System.Windows.Forms.Label label4;
