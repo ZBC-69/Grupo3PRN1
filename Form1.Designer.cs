@@ -123,7 +123,7 @@ namespace WindowsFormsApp4
             this.btnVerificar.Name = "btnVerificar";
             this.btnVerificar.Size = new System.Drawing.Size(92, 22);
             this.btnVerificar.TabIndex = 7;
-            this.btnVerificar.Text = "VERIFICAR";
+            this.btnVerificar.Text = "CALCULAR";
             this.btnVerificar.UseVisualStyleBackColor = true;
             this.btnVerificar.Click += new System.EventHandler(this.btnVerificar_Click);
             // 
