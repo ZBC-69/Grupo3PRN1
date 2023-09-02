@@ -44,7 +44,7 @@ namespace WindowsFormsApp4
             //VERIFICAR SI SE CUMPLE LA CONDICION DE SER APROBADO O REPROBADO
             decimal NMate;
             decimal NLenguaje;
-            decimal NProgración;
+            decimal NCiencias;
             decimal NOrientacionVida;
             decimal NMoralyCivica;
             decimal Resultado;
