@@ -57,7 +57,7 @@ namespace WindowsFormsApp4
             NombreCompleto = tbNombre.Text;
             NMate = decimal.Parse(tbNotaMatematica.Text);
             NLenguaje = decimal.Parse(tbNotaLenguaje.Text);
-            NCiencias = decimal.Parse(tbNotaCiencias.Text);
+            NCiencias = decimal.Parse(txtNotasFir.Text);
             NOrientacionVida = decimal.Parse(tbNotaOPV.Text);
             NMoralyCivica = decimal.Parse(tbNotaMoralCivica.Text);
 
@@ -100,7 +100,7 @@ namespace WindowsFormsApp4
             tbNombre.Text = "";
             tbNotaMatematica.Text = "";
             tbNotaLenguaje.Text = "";
-            tbNotaCiencias.Text = "";
+            txtNotasFir.Text = "";
             tbNotaOPV.Text = "";
             tbNotaMoralCivica.Text = "";
             lbPromedio.Text = "";
