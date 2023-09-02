@@ -34,7 +34,7 @@ namespace WindowsFormsApp4
             this.lbNotaMatematica = new System.Windows.Forms.Label();
             this.lbResultado = new System.Windows.Forms.Label();
             this.tbNombre = new System.Windows.Forms.TextBox();
-            this.txtMat = new System.Windows.Forms.TextBox();
+            this.txtMate = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnVerificar = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
@@ -98,13 +98,13 @@ namespace WindowsFormsApp4
             this.tbNombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbNombre.TextChanged += new System.EventHandler(this.tbNombre_TextChanged);
             // 
-            // txtMat
+            // txtMate
             // 
-            this.txtMat.Location = new System.Drawing.Point(135, 146);
-            this.txtMat.Name = "txtMat";
-            this.txtMat.Size = new System.Drawing.Size(41, 20);
-            this.txtMat.TabIndex = 4;
-            this.txtMat.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtMate.Location = new System.Drawing.Point(135, 146);
+            this.txtMate.Name = "txtMate";
+            this.txtMate.Size = new System.Drawing.Size(41, 20);
+            this.txtMate.TabIndex = 4;
+            this.txtMate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 
@@ -339,7 +339,7 @@ namespace WindowsFormsApp4
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnVerificar);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtMat);
+            this.Controls.Add(this.txtMate);
             this.Controls.Add(this.tbNombre);
             this.Controls.Add(this.lbResultado);
             this.Controls.Add(this.lbNotaMatematica);
@@ -363,7 +363,7 @@ namespace WindowsFormsApp4
         private System.Windows.Forms.Label lbNotaMatematica;
         private System.Windows.Forms.Label lbResultado;
         private System.Windows.Forms.TextBox tbNombre;
-        private System.Windows.Forms.TextBox txtMat;
+        private System.Windows.Forms.TextBox txtMate;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnVerificar;
         private System.Windows.Forms.Button btnLimpiar;

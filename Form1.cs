@@ -55,7 +55,7 @@ namespace WindowsFormsApp4
 
             Nombre = lbNombre.Text;
             NombreCompleto = tbNombre.Text;
-            NMate = decimal.Parse(txtMat.Text);
+            NMate = decimal.Parse(txtMate.Text);
             NLenguaje = decimal.Parse(tbNotaLenguaje.Text);
             NCiencias = decimal.Parse(txtNotas.Text);
             NOrientacionVida = decimal.Parse(tbNotaOPV.Text);
@@ -98,7 +98,7 @@ namespace WindowsFormsApp4
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             tbNombre.Text = "";
-            txtMat.Text = "";
+            txtMate.Text = "";
             tbNotaLenguaje.Text = "";
             txtNotas.Text = "";
             tbNotaOPV.Text = "";
